@@ -1,0 +1,40 @@
+package run;
+
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class Primitives {
+
+	public static void main(String[] args) {
+		boolean isCool = true;
+		boolean isCoolAndWise = false;
+		
+		char a = 'a';
+		
+		Person itsik = new Person("Itsik");
+		
+		
+		
+	}
+}
+
+interface SayHi {
+	
+	public void sayHi();
+}
+
+
+class Person implements SayHi{
+	
+	String name;
+	
+	public Person(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void sayHi() {
+		System.out.println("hi!");
+		
+	}
+}

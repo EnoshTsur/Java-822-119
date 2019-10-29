@@ -1,0 +1,70 @@
+package Run;
+
+public class Primitives {
+
+	public static void main(String[] args) {
+		
+		//n lfkgjkldfgjkldfgjkld  kldfgj lkdfj 
+		
+		/*
+		 * klgjdfklg
+		 * ldfjkgjkdfg
+		 * 
+		 * dkghdjkfgd
+		 * dfgjkhdfg
+		 */
+		
+		int x = 8;
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+//		boolean isCool = true;
+//		boolean isCoolAndWise = false;
+//
+//		char a = 'a';
+
+	}
+}

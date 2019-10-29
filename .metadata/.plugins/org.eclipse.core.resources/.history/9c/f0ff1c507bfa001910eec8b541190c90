@@ -1,0 +1,14 @@
+package Run;
+
+import javax.swing.JButton;
+
+public class UseString {
+
+	public static void main(String[] args) {
+		String name = "sdfsdf";
+		
+		System.out.println(name);
+
+	}
+
+}

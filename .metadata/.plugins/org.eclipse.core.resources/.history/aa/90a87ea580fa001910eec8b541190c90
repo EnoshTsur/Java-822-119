@@ -1,0 +1,13 @@
+package Run;
+
+public class MathRandom {
+
+	public static void main(String[] args) {
+		
+		int a = (int) (Math.random() * 11) + 1;
+		System.out.println(a);
+		
+		
+		
+	}
+}

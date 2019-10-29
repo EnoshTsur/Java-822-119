@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\dev\enosh\workspaces\29-10-19\.metadata\.plugins\org.eclipse.jdt.core
+2565356412.index
+2882305820.index

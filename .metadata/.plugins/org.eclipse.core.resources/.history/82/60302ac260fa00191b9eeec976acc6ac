@@ -1,0 +1,14 @@
+package run;
+
+public class Primitives {
+
+	public static void main(String[] args) {
+		boolean isCool = true;
+		boolean isCoolAndWise = false;
+		
+		char a = 'a';
+		char b = 9;
+		
+		System.out.println("Asdasd");
+	}
+}

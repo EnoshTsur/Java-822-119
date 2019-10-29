@@ -1,0 +1,11 @@
+package run;
+
+public class Numeric {
+
+	public static void main(String[] args) {
+		byte byteNum = 127;
+		short shortNum = 32767;
+		int intNum = 2147483647;
+		
+	}
+}

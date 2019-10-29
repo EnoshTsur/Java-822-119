@@ -1,0 +1,16 @@
+package Run;
+
+// this class handle....
+public class Primitives {
+	
+	public static void main(String[] args) {
+		
+		boolean isCool = false;
+		isCool = true;
+		System.out.println(isCool);
+//		boolean isCoolAndWise = false;
+//		
+//		char a = 'a';
+		
+	}
+}

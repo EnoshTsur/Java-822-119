@@ -1,0 +1,22 @@
+package run;
+
+public class Numeric {
+
+	public static void main(String[] args) {
+		
+		byte byteNumPos = 127;
+		byte byteNumNeg = -128;
+		
+		
+		short shortNumPos = 32767;
+		short shortNumNeg = -32768;
+		
+		
+		int intNumPos = 2147483647;
+		int intNumNeg = -2147483648;
+		
+		long longNumPos = 9223372036854775807L;
+		long longNumNeg = -9223372036854775808L;
+		
+	}
+}

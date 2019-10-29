@@ -1,0 +1,44 @@
+package Run;
+
+public class Primitives {
+
+	public static void main(String[] args) {
+		
+		
+		int x = 7;
+		System.out.println(x);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+//		boolean isCool = true;
+//		boolean isCoolAndWise = false;
+//
+//		char a = 'a';
+
+	}
+}

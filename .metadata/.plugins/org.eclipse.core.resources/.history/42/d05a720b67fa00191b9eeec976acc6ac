@@ -1,0 +1,17 @@
+package run;
+
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class Primitives {
+
+	public static void main(String[] args) {
+		boolean isCool = true;
+		boolean isCoolAndWise = false;
+		
+		char a = 'a';
+		
+	}
+}
+
+
