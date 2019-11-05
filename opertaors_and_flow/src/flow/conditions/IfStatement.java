@@ -1,4 +1,4 @@
-package flow;
+package flow.conditions;
 
 public class IfStatement {
 
