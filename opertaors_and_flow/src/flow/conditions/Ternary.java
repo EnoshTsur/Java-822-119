@@ -1,6 +1,6 @@
 package flow.conditions;
 
-public class Turnary {
+public class Ternary {
 
 	public static void main(String[] args) {
 
