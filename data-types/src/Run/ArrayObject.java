@@ -2,45 +2,68 @@ package Run;
 
 import java.util.Arrays;
 
-
 public class ArrayObject {
 	
+	static void printArrays(int[] nums) {
+		System.out.println(Arrays.toString(nums));
+	}
+	
+	
 	public static void main(String[] args) {
-		int[] numArray = new int[4];
-		numArray[0] = 9;
-		numArray[3] = 2;
+		// Declare array
+		int[] intArray = new int[4];
 		
-		System.out.println(
-				Arrays.toString(numArray)
-		);
-		
-		
-		
-		
-		int[] numArray2 = new int[] { 1, 2, 3};
-		System.out.println(Arrays.toString(numArray2));
-		System.out.println(numArray2.length);
-		
-		for(int i = 0; i < numArray2.length; i++) {
-			System.out.println(numArray2[i]);
+		// Initial array
+		for(int i = 0; i < intArray.length; i++) {
+			int randomNumber = (int) (Math.random() * 10);
+			intArray[i] = randomNumber;
 		}
+		
+		// Sum array
+		int sum = 0;
+		for (int current : intArray) {
+			sum+= current;
+		}
+		
+		int max = 0;
+		int counter = 0;
+		int higherIndex = 0;
+		
+		for (int current : intArray) {
+			if(current > max) {
+				max = current;
+				higherIndex = counter;
+			}
+			
+			counter++;
+		}
+		
+		System.out.printf("the max: %d a index %d", max, higherIndex);
+		
+		
+		
+		int[] intArray2 = {
+				(int) (Math.random() * 10),
+				(int) (Math.random() * 10),
+				(int) (Math.random() * 10),
+				(int) (Math.random() * 10)
+		};
 		
 
-		boolean[] boolArray = {
-				true, false, true
-		};
-	
-		for(boolean current: boolArray) {
-			System.out.println(current);
+		
+		printArrays(intArray);
+		int counter2 = 0;
+		for(int current: intArray) {
+			int random = (int) (Math.random() * 10);
+			intArray[counter2] = random;
+			counter2++;
 		}
+	
 		
-		int[] a = {1, 54, 7, 4};
-		int z = a.length;
+		printArrays(intArray);
+
 		
-		
-		String[] stringArray = new String[3];
-		
-		System.out.println(stringArray[0].toUpperCase());
+	System.out.println(Arrays.toString(intArray));
 		
 		
 		
