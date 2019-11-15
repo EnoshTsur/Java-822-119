@@ -1,6 +1,7 @@
 package Runners;
 
 import Objects.Address;
+import Objects.CrazyObject;
 import Objects.Person;
 
 public class Runner {
@@ -10,7 +11,9 @@ public class Runner {
 		Address address = new Address("Tel-Aviv", "Bugrashov", 2);
 		Person person = new Person("Avner", 74, address);
 		
-		System.out.println(address);
+		CrazyObject co = new CrazyObject();
+		
+		System.out.println(co);
 		
 	}
 	
