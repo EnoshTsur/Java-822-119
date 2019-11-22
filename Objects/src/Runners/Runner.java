@@ -1,20 +1,18 @@
 package Runners;
 
-import Objects.Address;
-import Objects.CrazyObject;
-import Objects.Person;
+import Objects.Calc;
 
 public class Runner {
 
 	public static void main(String[] args) {
 		
-		Address address = new Address("Tel-Aviv", "Bugrashov", 2);
-		Person person = new Person("Avner", 74, address);
+		Calc calc = new Calc();
 		
-		CrazyObject co = new CrazyObject();
+		int add2to6 = calc.add(2, 6);
 		
-		System.out.println(co);
 		
+			
+
 	}
 	
 
