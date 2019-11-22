@@ -133,6 +133,9 @@
 		<item value="org.springsource.sts.package:3.9.6.201809180749-RELEASE-e49"/>
 		<item value="org.springsource.sts:3.9.6.201809180749-RELEASE"/>
 	</list>
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\dev\enosh\Java-822-119"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 	</section>
 	<section name="WORKBENCH_SETTINGS">
@@ -140,11 +143,11 @@
 		</list>
 	</section>
 	<section name="ResourceNavigator">
-		<item value="Aggregate for window 1572359594274" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
-		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1572359594274"/>
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="393" key="DIALOG_X_ORIGIN"/>
-		<item value="242" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="393"/>
+		<item key="DIALOG_Y_ORIGIN" value="242"/>
 	</section>
 </section>
