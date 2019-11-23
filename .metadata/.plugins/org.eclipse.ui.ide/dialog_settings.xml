@@ -150,4 +150,13 @@
 		<item key="DIALOG_X_ORIGIN" value="393"/>
 		<item key="DIALOG_Y_ORIGIN" value="242"/>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\dev\john_bryce_java\Java-822-119"/>
+		</list>
+	</section>
 </section>
