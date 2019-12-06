@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="run.Person"/>
     <fullyQualifiedTypeName name="run.SayHi"/>
@@ -12,7 +11,6 @@
     <fullyQualifiedTypeName name="Run.Primitives"/>
     <fullyQualifiedTypeName name="javax.swing.text.DefaultCaret"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="Run.Test"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -25,7 +23,6 @@
     <fullyQualifiedTypeName name="Objects.Address"/>
     <fullyQualifiedTypeName name="Objects.Person"/>
     <fullyQualifiedTypeName name="Objects.CrazyObject"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Objects.User"/>
     <fullyQualifiedTypeName name="Objects.Calc"/>
@@ -34,4 +31,20 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="hw.ArrayHandler"/>
     <fullyQualifiedTypeName name="objects.Person"/>
+    <fullyQualifiedTypeName name="utils.IdGenerator"/>
+    <fullyQualifiedTypeName name="entities.Client"/>
+    <fullyQualifiedTypeName name="entities.Account"/>
+    <fullyQualifiedTypeName name="animals.Dog"/>
+    <fullyQualifiedTypeName name="animals.Cat"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="animals.Animal"/>
+    <fullyQualifiedTypeName name="task.Person"/>
+    <fullyQualifiedTypeName name="task.Worker"/>
+    <fullyQualifiedTypeName name="task.Driver"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
