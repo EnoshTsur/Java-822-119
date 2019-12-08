@@ -28,7 +28,7 @@ public class Client {
     }
 
     public Client(String name) {
-        this(name, Rank.REGULAR, 0);
+        this(name, Rank.REGULAR);
     }
 
     public double getFortune() {
@@ -69,7 +69,7 @@ public class Client {
             System.out.printf(
                     "Invalid index: %d\n" +
                     "Index should be in range (0 - %d)\n",
-                    index, MAX_ACCOUNTS
+                    index, (MAX_ACCOUNTS - 1)
             );
             return;
         }
