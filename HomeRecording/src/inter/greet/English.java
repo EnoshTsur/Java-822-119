@@ -12,10 +12,5 @@ public class English implements Greet {
 		System.out.println("Bye bye!");
 		
 	}
-	
-	public void onlyEnglish() {
-		
-	}
-
 
 }
