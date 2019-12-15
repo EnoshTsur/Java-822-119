@@ -1,0 +1,5 @@
+package enums;
+
+public enum DayType {
+	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, STATURDAY
+}
