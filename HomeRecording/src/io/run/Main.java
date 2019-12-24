@@ -11,6 +11,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.io.*;
 
 public class Main {
 
@@ -94,7 +95,26 @@ public class Main {
 		}
 		
 		
-		
+		String filePath = "./src/run/hi.txt";
+
+		try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(new File(filePath)))) {
+
+		    Person zibby = new Person("Mr Person");
+		    out.writeObject(zibby);
+
+		} catch (IOException e) {
+		e.printStackTrace();
+		}
+
+		try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(new File(filePath)))) {
+
+		    Person person = (Person) in.readObject();
+
+		    System.out.println(person);
+
+		} catch(IOException | ClassNotFoundException e) {
+		    e.printStackTrace();
+		}
 
 	}
 
