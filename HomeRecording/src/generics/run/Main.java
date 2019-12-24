@@ -1,0 +1,23 @@
+package generics.run;
+
+import generics.generics.Box;
+import heq_objects.Person;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person kobi = new Person("Kobi", 32);
+		
+		Box<String> box = new Box<>("Some String");
+		Box<Integer> box1 = new Box<>(9);
+		Box<Boolean> box2 = new Box<>(true);
+		Box<Person> box3 = new Box<>(kobi);
+		
+		System.out.println(box3.getContent());
+		
+		
+
+	}
+
+}
