@@ -1,6 +1,6 @@
 package generics.generics;
 
-public class Box<T> {
+public class Box<T>{
 	
 	private T content;
 	
